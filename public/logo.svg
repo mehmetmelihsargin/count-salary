@@ -1,0 +1,61 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="37"
+    height="59"
+    fill="black"
+    viewBox="0 0 37 59"
+>
+    <path
+        stroke="url(#paint0_linear_22_9)"
+        strokeLinecap="round"
+        strokeWidth="6"
+        d="M21 27v29"
+    ></path>
+    <path
+        stroke="url(#paint1_linear_22_9)"
+        strokeLinecap="round"
+        strokeWidth="5"
+        d="M20.545 26.604L3 4.19"
+    ></path>
+    <path
+        stroke="url(#paint2_linear_22_9)"
+        strokeLinecap="round"
+        strokeWidth="5"
+        d="M34.217 3.397L21.397 26.629"
+    ></path>
+    <defs>
+        <linearGradient
+            id="paint0_linear_22_9"
+            x1="18"
+            x2="18"
+            y1="57.719"
+            y2="26.561"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop stopColor="#0125DF"></stop>
+            <stop offset="1" stopColor="#34A0EE"></stop>
+        </linearGradient>
+        <linearGradient
+            id="paint1_linear_22_9"
+            x1="21.5"
+            x2="6.5"
+            y1="21.691"
+            y2="-3.309"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop stopColor="#34A0EE"></stop>
+            <stop offset="1" stopColor="#0125DF"></stop>
+        </linearGradient>
+        <linearGradient
+            id="paint2_linear_22_9"
+            x1="19.897"
+            x2="33.278"
+            y1="23.404"
+            y2="-0.962"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0.001" stopColor="#34A0EE"></stop>
+            <stop offset="1" stopColor="#0125DF"></stop>
+        </linearGradient>
+    </defs>
+</svg>
