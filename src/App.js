@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
     const givenDate = new Date(date);
     if (date !== '') {
       if (givenDate > today) {
-        const remainingDays = givenDate.getDate() - today.getDate() + 1;
+        const timeDiff = Math.abs(givenDate.getTime() - today.getTime());
+        const remainingDays = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
         setDailyAmount(money / remainingDays);
       } else {
         alert('Eksik veya hatalı bilgi girdiniz');
