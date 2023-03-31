@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [money, setMoney] = useState(0);
+  const [money, setMoney] = useState('');
   const [date, setDate] = useState('');
   const [dailyAmount, setDailyAmount] = useState(0);
   function dailySpending(money, date) {
@@ -61,6 +61,7 @@ function App() {
               <input
                 type="number"
                 value={money}
+                placeholder='Miktar Giriniz'
                 onChange={handleChange}
                 className="border mt-2 border-blue-400 outline-blue-700 p-4 w-full text-xl rounded-3xl"
               />
